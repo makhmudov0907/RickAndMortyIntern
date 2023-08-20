@@ -54,3 +54,4 @@ var episodesList = [
     Episodes(episodeCount: 11, seasonCount: 1, episodeName: "Ricksy Business", date: "April 14, 2014"),
 
 ]
+

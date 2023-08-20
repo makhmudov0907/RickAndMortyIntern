@@ -23,13 +23,7 @@ struct CharactersView: View {
                 .padding()
             }
             .background(Color(UIColor(named: "bgColor")!))
-//            .navigationTitle("Characters")
-            .navigationBarItems(leading: VStack(alignment: .trailing) {
-                Text("Characters")
-                    .font(.title)
-                    .bold()
-                    .foregroundColor(.cyan)
-            })
+            .navigationTitle("Characters")
         }
     }
 }
@@ -41,23 +35,3 @@ struct CharactersView_Previews: PreviewProvider {
 }
 
 
-//NavigationView {
-//    NavigationLink(destination: DetailCharacters(character: characterList[0])) {
-//        ScrollView {
-//            LazyVGrid(columns: columns) {
-//                ForEach(characterList, id: \.id) { character in
-//                    CharactersCard(character: character)
-//                }
-//            }
-//            .padding()
-//        }
-//        .background(Color(UIColor(named: "bgColor")!))
-//    }
-////            .navigationTitle("Characters")
-//    .navigationBarItems(leading: VStack(alignment: .trailing) {
-//        Text("Characters")
-//            .font(.title)
-//            .bold()
-//            .foregroundColor(.cyan)
-//    })
-//}
